@@ -1,4 +1,27 @@
-p {
+body {
+  background-color: #FFE;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  padding: 5px;
+}
+
+h5 {
+  color: #887;
+}
+
+a {
+  color: #900;
+}
+
+img {
+  border: 5px solid black;
+}
+
+
+
+
+/*p {
   color: red;
 }
 li {
@@ -11,7 +34,7 @@ li {
   text-align: center;
   list-style: none;
   text-decoration: none;
-}
+}*/
 
 /*Cookie Recipe CSS
 =================
