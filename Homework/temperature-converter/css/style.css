@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background: aqua;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #731B00;
+  color: #fff;
+}
+
