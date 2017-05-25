@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background: aqua;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #731B00;
+  color: #fff;
+  font-family: Quattrocento;
+}
+
+h1 {
+  font-family: Oswald;
+  margin: 10px 0;	
+  padding: 40px 50px;
+}
+
+label {
+  font-family: Quattrocento;
+  margin-bottom: 10px;	
+
+}
+
+input {
+  font-family: Quattrocento;
+  margin-bottom: 20px;
+}
+
