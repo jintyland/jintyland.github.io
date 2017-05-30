@@ -1,13 +1,16 @@
 body {
-	background: url('../images/apple.png');
-	line-height: 1.8;
+	background: url('../images/Pineapple.png') repeat fixed center;
+/*	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;*/
 }
 
 #wrapper {
 	width: 800px;
 	padding: 40px;
-	background-color: white;
+	background-color: black;
 	margin: 0 auto;
+	opacity: 0.7;
 }
 
 h1 {

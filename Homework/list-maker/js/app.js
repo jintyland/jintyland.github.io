@@ -11,23 +11,26 @@
 // Legendary Bonus: Remove individual <li> elements when they are clicked (hint: use $(this) and .remove())
 
 $(document).ready(function () {
-   
 
    $('#clickme').click(function(){
-	  var getFood = $('#item').val();
+	  var getFood = $('#item').val('');
+	  
 	  if (!getFood) {
 	  	alert ('Please enter an item')
 	  }	else 
-	  	createList(getFood);  
-	  })
+	  	appendItem(getFood);  
+	  });
 
 
-function createList (getFood){
-	$('ul').append('<li>' + getFood + '</li>');
-	$('#item').val('').focus('');
+function appendItem (getFood){
+	$('ul').append('<ul>' + getFood + '</ul>');
+	$('#item').val('')
+	$('#item').focus();
 	$('li').click(function() {
 		$(this).remove();
-	})
+	});
+};
+});
 
 
 
