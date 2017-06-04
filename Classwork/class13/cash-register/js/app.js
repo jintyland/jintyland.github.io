@@ -19,7 +19,7 @@ $(document).ready(function () {
 	$('#entry').submit(function(event){
 		event.preventDefault();
 		var info = parseFloat($('#newEntry').val());
-		$('#entries').append('<tr><td>' + info + '</td></tr>');
+		$('#entries').append('<tr><td><td>' + info + '</td></td></tr>');
 
 		calculate(info);
 
@@ -31,8 +31,9 @@ $(document).ready(function () {
 		$('#newEntry').val('');
 
 	})	
-		
 	
+			
+
 
 })
 
