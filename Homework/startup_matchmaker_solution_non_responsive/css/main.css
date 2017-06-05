@@ -42,7 +42,7 @@ p {
 }
 
 .page-wrap {
-	width: 960px;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -118,7 +118,7 @@ p {
 
 .blurb {
 	background: rgba(255,255,255,.8);
-	width: 350px;
+	width: 50%;
 	margin: 0 auto;
 	padding: 36px;
 	float: right;
@@ -135,7 +135,7 @@ p {
 
 .tout {
 	float: left;
-	width: 279px;
+	width: 280px;
 	padding: 20px;
 	border-right: 1px solid #ccc;
 }
@@ -153,4 +153,72 @@ footer {
 	background: black;
 	color: white;
 	padding: 20px 30px;
+}
+
+/*MEDIA HOMEWORK*/
+@media (max-width: 760px) {
+
+	header h1 {
+		float: none;
+		text-align: left;
+	}
+
+	header ul {
+		float: none;
+	}
+}
+
+
+/*@media (min-width: 320px) and (max-width: 760px) {
+	nav {
+		text-align: left;
+	}
+}
+*/
+@media (min-width: 480px) and (max-width: 768px) {
+	.blurb {
+		float: none;
+	}
+	.tout {
+		float: none;
+		width: 33.333%;
+		border-right: none;
+		text-align: center;
+		margin: auto;
+	}		
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+	#listed {
+		float: left;
+		border-bottom: 0.5px;
+	}
+	#smoosh {
+		transition: left 1s ease;
+		padding: 1rem;
+		float: left;
+		border-bottom: 5px;
+		line-height: 0px;
+	}
+	#page-header {
+		padding: 1rem;
+	}
+	#page-header h1 {
+		/*float: none;*/
+		padding: 1rem;
+	}
+	#page-header nav {
+		float: none;
+		padding: 1rem;
+	}
+	#page-header nav li {
+		float: none;
+		transition: left 1s ease;
+	}
+	#page-header nav a {
+		padding: 1rem;
+		transition: left 1s ease;
+		float: none;
+	}
+
 }
